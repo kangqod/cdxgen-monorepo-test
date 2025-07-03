@@ -1,0 +1,19 @@
+{
+  "name": "new-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@9.4.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo run dev --filter=web",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "check": "pnpm --filter=web lint",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.5",
+    "turbo": "^2.5.4"
+  }
+}

@@ -1,0 +1,14 @@
+.vsize-xs {
+  &.ant-input {
+    font-size: 12px;
+    height: 24px;
+    padding: 0 8px;
+  }
+}
+.vsize-xl {
+  &.ant-input {
+    font-size: 18px;
+    height: 56px;
+    padding: 8px 20px;
+  }
+}
