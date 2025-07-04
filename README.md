@@ -11,3 +11,5 @@ I want to extract only the dependencies for apps/web, apps/web-v2 to bom.json (e
 > ex) apps/web/sbom-web.json, apps/web-v2/sbom-web-v2.json
 
 > cdxgen -t pnpm -p -o sbom-web.json --required-only --exclude "packages/**" ??
+
+https://github.com/CycloneDX/cdxgen/issues/2020

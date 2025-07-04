@@ -1,5 +1,4 @@
 import { Button as ButtonV2 } from "@comp/ui-v2";
-import { Button as AntdButton } from "antd";
 import "./App.css";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         }}
       >
         <ButtonV2>V2</ButtonV2>
-        <AntdButton type="primary">Antd</AntdButton>
       </div>
     </div>
   );

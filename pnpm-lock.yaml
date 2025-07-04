@@ -63,9 +63,6 @@ importers:
       '@comp/ui-v2':
         specifier: workspace:*
         version: link:../../packages/ui-v2
-      antd:
-        specifier: ^5.26.3
-        version: 5.26.3(date-fns@2.30.0)(moment@2.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1

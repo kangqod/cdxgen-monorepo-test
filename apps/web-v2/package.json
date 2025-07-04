@@ -12,7 +12,6 @@
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "^1.0.3",
     "@comp/ui-v2": "workspace:*",
-    "antd": "^5.26.3",
     "clsx": "^2.1.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

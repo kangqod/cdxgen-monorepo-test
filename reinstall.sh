@@ -16,7 +16,7 @@ function remove_all() {
 
 function install_all() {
   print_color_text "package install start."
-  pnpm install --strict-peer-dependencies
+  pnpm install
   print_color_text "package install end."
 }
 
